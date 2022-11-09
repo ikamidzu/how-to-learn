@@ -54,6 +54,7 @@
   font-weight: 600;
   align-self: center;
   margin-left: 64px;
+  z-index: 100;
 }
 .subtitle{
   position: absolute;
@@ -75,6 +76,7 @@
   right: 0;
   bottom: 0;
 }
+/* начало секции дискришина */
 .description{
   display: flex;
   justify-content: center;
@@ -106,6 +108,7 @@
 .two-columns__span-accent{
   font-weight: 600;
 }
+/* начало секции дижитс */
 .digits{
   position: relative;
 }
@@ -154,6 +157,7 @@
   font-weight: normal;
   margin: 0;
 }
+/* начало секции фейнмана */
 .feynman{
   position: relative;
   margin-bottom: 0;
@@ -196,6 +200,7 @@
   position: absolute;
   z-index: -1;
 }
+/* начало секции кауфмана */
 .kaufman{
   overflow: hidden;
   position: relative;
@@ -251,6 +256,7 @@
   padding: 0;
   margin: 0;
 }
+/* начало футера */
 .footer{
   position: relative;
   min-height: 350px;
@@ -274,7 +280,6 @@
   margin-bottom: 40px;
 }
 .logo_place_footer{
-  display: flexbox;
   position: absolute;
   width: 228px;
   height: 32px;
